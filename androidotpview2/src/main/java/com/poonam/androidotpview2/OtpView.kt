@@ -1,4 +1,4 @@
-package com.poonam.androidotpview
+package com.poonam.androidotpview2
 
 import android.content.Context
 import android.graphics.*
@@ -12,10 +12,8 @@ import android.view.View
 import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatEditText
-import com.poonam.androidotpview.helpers.fetchColor
 import androidx.core.view.ViewCompat
-
-
+import com.poonam.androidotpview.helpers.fetchColor
 
 
 class OtpView : AppCompatEditText {
@@ -68,9 +66,8 @@ class OtpView : AppCompatEditText {
     }
 
     private fun setAttributes(attrs: AttributeSet, defStyleAttr: Int) {
-        attrs?.let {
             val theme = context.theme
-            val typedArray = theme?.obtainStyledAttributes(it, R.styleable.OtpView, defStyleAttr, 0)
+            val typedArray = theme?.obtainStyledAttributes(attrs, R.styleable.OtpView, defStyleAttr, 0)
             lineStartColor = typedArray!!.getInt(R.styleable.OtpView_lineStartColor, Color.BLACK)
             lineEndColor = typedArray.getInt(R.styleable.OtpView_lineEndColor, Color.RED)
             dashColor = typedArray.getInt(R.styleable.OtpView_dashColor, Color.GRAY)
@@ -79,8 +76,6 @@ class OtpView : AppCompatEditText {
             spaceLength = typedArray.getFloat(R.styleable.OtpView_spaceLength, 0f)
             showDash = typedArray.getBoolean(R.styleable.OtpView_showDash, true)
             typedArray.recycle()
-
-        }
 
     }
 
