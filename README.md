@@ -16,6 +16,6 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.chaya222:AndroidOtpView:v0.0.1'
+	        implementation 'com.github.chaya222:AndroidOtpView:0.0.1'
 	}
   
