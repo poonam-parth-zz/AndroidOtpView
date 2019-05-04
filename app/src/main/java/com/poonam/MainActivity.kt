@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
 //        otpView.addTextChangedListener(object : TextWatcher {
 //            override fun afterTextChanged(s: Editable?) {
 //            }

@@ -6,37 +6,39 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <!--<TextView android:layout_width="wrap_content"-->
-              <!--android:layout_height="wrap_content"-->
-              <!--app:layout_constraintBottom_toTopOf="@id/otpView"-->
-              <!--app:layout_constraintTop_toTopOf="parent"-->
-              <!--app:layout_constraintEnd_toEndOf="parent"-->
-              <!--app:layout_constraintStart_toStartOf="parent"-->
-              <!--android:text="CustomOtpView"-->
-              <!--android:textColor="@color/end_color_otp"-->
-              <!--android:textSize="20sp"-->
-    <!--/>-->
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:layout_constraintBottom_toTopOf="@id/otpView"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              android:text="CustomOtpView"
+              android:textColor="@color/end_color_otp"
+              android:textSize="20sp"
+    />
 
-    <!--<com.poonam.androidotpview.OtpView-->
-            <!--android:id="@+id/otpView"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--app:layout_constraintBottom_toBottomOf="parent"-->
-            <!--app:layout_constraintTop_toTopOf="parent"-->
-            <!--app:layout_constraintEnd_toEndOf="parent"-->
-            <!--custom:lineEndColor="@color/start_color_otp"-->
-            <!--custom:lineStartColor="@color/end_color_otp"-->
-            <!--custom:dashColor="@color/end_color_otp"-->
-            <!--custom:showDash="false"-->
-            <!--android:focusable="true"-->
-            <!--app:lineCount="6"-->
-            <!--android:inputType="number"-->
-            <!--android:digits="1234567890"-->
-            <!--android:textColor="@color/black"-->
-            <!--android:focusableInTouchMode="true"-->
-            <!--app:layout_constraintStart_toStartOf="parent"-->
-            <!--app:layout_constraintHorizontal_bias="0.5"-->
-    <!--/>-->
+    <com.poonam.androidotpview2.OtpView
+            android:id="@+id/otpView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            custom:lineEndColor="@color/start_color_otp"
+            custom:lineStartColor="@color/end_color_otp"
+            custom:dashColor="@color/end_color_otp"
+            custom:showDash="false"
+            android:focusable="true"
+            app:lineCount="6"
+            android:inputType="number"
+            android:digits="1234567890"
+            android:textColor="@color/black"
+            android:focusableInTouchMode="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+    />
+
+
 
 
 
