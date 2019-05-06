@@ -34,11 +34,11 @@ Okay seems like you integrated the library in your project but **how do you use 
             android:id="@+id/otpView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:lineEndColor="@color/start_color_otp"
-            app:lineStartColor="@color/end_color_otp"
-            app:dashColor="@color/end_color_otp"
-            app:showDash="true"
-            app:lineCount="6" />
+            custom:lineEndColor="@color/start_color_otp"
+            custom:lineStartColor="@color/end_color_otp"
+            custom:dashColor="@color/end_color_otp"
+            custom:showDash="true"
+            custom:lineCount="6" />
 .....
 ```
 
@@ -50,12 +50,28 @@ Okay seems like you integrated the library in your project but **how do you use 
             android:id="@+id/otpView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:lineEndColor="@color/start_color_otp"
-            app:lineStartColor="@color/end_color_otp"
-            app:showDash="false"
-            app:lineCount="6" />
+            custom:lineEndColor="@color/start_color_otp"
+            custom:lineStartColor="@color/end_color_otp"
+            custom:showDash="false"
+            custom:lineCount="6" />
 .....
 ```
+3) Specific length of spaces (if not provided by default space will be equal to line length)
+
+```xml
+.....
+  <com.poonam.androidotpview2.OtpView
+            android:id="@+id/otpView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            custom:lineEndColor="@color/start_color_otp"
+            custom:lineStartColor="@color/end_color_otp"
+            custom:showDash="true"
+	    custom:spaceLength="8"		      
+            custom:lineCount="6" />
+.....
+```
+
 
 
   
