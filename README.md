@@ -22,3 +22,14 @@ Step 2. Add the dependency
 	        implementation 'com.github.chaya222:AndroidOtpView:0.0.2'
 	}
   
+  
+## Contribution
+
+If you are interested to contribute, feel free to send pull requests or issues.
+
+**Note:** All your pull requests should be written in kotlin
+
+## Questions?
+Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@parth_poonam-blue.svg?style=flat)](https://twitter.com/as_pillai)
+
+
