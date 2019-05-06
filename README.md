@@ -2,8 +2,8 @@
 [![](https://jitpack.io/v/chaya222/AndroidOtpView.svg)](https://jitpack.io/#chaya222/AndroidOtpView)
 
 ## Preview
-<img src="otpVw.gif" width="250" height="480"/>
-<img src="otpVw.gif" width="250" height="480"/>
+<img src="otpVw.gif" width="250" height="480"/> &nbsp;&nbsp;
+<img src="otpVw.gif" width="250" height="480"/> &nbsp;&nbsp;
 
 Otp View library for Android
 
