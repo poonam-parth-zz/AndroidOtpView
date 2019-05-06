@@ -1,4 +1,4 @@
-# AndroidOtpView
+# AndroidOtpView (With gradinet color in lines)
 [![](https://jitpack.io/v/chaya222/AndroidOtpView.svg)](https://jitpack.io/#chaya222/AndroidOtpView)
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)]()
 [![API](https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
