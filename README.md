@@ -30,7 +30,7 @@ If you are interested to contribute, feel free to send pull requests or issues.
 **Note:** All your pull requests should be written in kotlin
 
 ## Questions?
-Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@parth_poonam-blue.svg?style=flat)](https://twitter.com/as_pillai)
+Hit me on twitter [![Twitter](https://img.shields.io/badge/Twitter-@parth_poonam-blue.svg?style=flat)](https://twitter.com/parth_poonam)
 
 ## License
 
