@@ -3,6 +3,7 @@
 
 ## Preview
 <img src="otpVw.gif" width="250" height="480"/>
+<img src="otpVw.gif" width="250" height="480"/>
 
 Otp View library for Android
 
