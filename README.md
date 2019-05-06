@@ -22,6 +22,41 @@ Step 2. Add the dependency
 	        implementation 'com.github.chaya222:AndroidOtpView:0.0.2'
 	}
   
+## How to use the library?
+Okay seems like you integrated the library in your project but **how do you use it**? Well its really easy just add the following to your xml design to show the otpview
+
+1) With Dash between lines
+
+```xml
+.....
+  <com.poonam.androidotpview2.OtpView
+            android:id="@+id/otpView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lineEndColor="@color/start_color_otp"
+            app:lineStartColor="@color/end_color_otp"
+            app:dashColor="@color/end_color_otp"
+            app:showDash="true"
+            app:lineCount="6" />
+.....
+```
+
+2) Without Dash between lines
+
+```xml
+.....
+  <com.poonam.androidotpview2.OtpView
+            android:id="@+id/otpView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lineEndColor="@color/start_color_otp"
+            app:lineStartColor="@color/end_color_otp"
+            app:showDash="false"
+            app:lineCount="6" />
+.....
+```
+
+
   
 ## Contribution
 
